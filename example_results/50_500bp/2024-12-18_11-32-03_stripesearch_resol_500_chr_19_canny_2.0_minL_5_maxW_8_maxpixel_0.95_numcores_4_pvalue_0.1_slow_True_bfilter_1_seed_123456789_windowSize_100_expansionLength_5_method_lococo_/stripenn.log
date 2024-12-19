@@ -1,0 +1,27 @@
+cool: /Users/amulyagarimella/Desktop/Xia_Lab/J/data/hct_wt_merge_all_1.48B_UU_dedup.pairs_50bp.mcool::resolutions/500
+bed: /Users/amulyagarimella/Desktop/Xia_Lab/J/outputs/2024-12-18_03-57-30_stripe_prior_results_resolution_500bp_windowsize_20Mb_stepsize_20Mb_sumwindowsize_1000kb_peakwindowsize_1000kb_threshold_0.5_lambdawindowsizesbp_10000_100000_1000000_chromosomes_19/prior_peaks_all_chromosomes_peak_calling_threshold_0.5_resolution_500bp_windowsize_20Mb_stepsize_20Mb_sumwindowsize_1000kb_peakwindowsize_1000kb_threshold_0.5_lambdawindowsizesbp_10000_100000_1000000_chromosomes_19_p_5e-08_random0.5.bed
+signal: /Users/amulyagarimella/Desktop/Xia_Lab/J/outputs/2024-12-18_03-57-30_stripe_prior_results_resolution_500bp_windowsize_20Mb_stepsize_20Mb_sumwindowsize_1000kb_peakwindowsize_1000kb_threshold_0.5_lambdawindowsizesbp_10000_100000_1000000_chromosomes_19/allpeaks_chr19.bed
+region: 
+out: /Users/amulyagarimella/Desktop/Xia_Lab/J/outputs/2024-12-18_11-32-03_stripesearch_resol_500_chr_19_canny_2.0_minL_5_maxW_8_maxpixel_0.95_numcores_4_pvalue_0.1_slow_True_bfilter_1_seed_123456789_windowSize_100_expansionLength_5_method_lococo_/
+norm: 
+chrom: 19
+canny: 2.0
+minL: 5
+maxW: 8
+maxpixel: 0.95
+num_cores: 4
+pvalue: 0.1
+mask: 0
+blur filter: 1
+seed: 123456789
+windowSize: 100
+expansionLength_px: 5
+method: lococo
+stripenn started at Wed Dec 18 11:32:03 2024
+Elapsed time for background estimation: 152.5127148628235 s
+Chromosome chr19 search time: 2560.3112947940826
+Elapsed time for p-value calculation: 414.0718820095062 s
+Elapsed time for scoring stripes: 1205.524759054184 s
+
+98.697min taken.
+5921.841188669205sec taken.
