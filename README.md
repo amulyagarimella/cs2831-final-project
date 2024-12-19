@@ -1,9 +1,12 @@
 # Corner Stripe Detector
 
-Detecting genomic stripes using corners.
+Detecting genomic stripes using corners. 
 
+Stripes are 3D genomic elements that can be detected in pairwise genome "contact maps." 
+![3dgenome](https://github.com/user-attachments/assets/22947d16-a2a3-4f29-8677-44c2f92c4062)
+
+However, they are hard to detect at high resolution. I leverage corner detection and known priors to solve this problem efficiently.
 ![comparison](https://github.com/user-attachments/assets/f38beb53-aca3-4149-8691-0986f83e961e)
-
 
 
 ## To run
