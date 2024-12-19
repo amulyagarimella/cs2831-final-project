@@ -19,3 +19,5 @@ Unfortunately, the required `.mcool` genomic files are too large to include one 
 `
 tail -n +2 [.../result_unfiltered_removeredundant.tsv] | awk -F'\t' 'BEGIN {OFS="\t"} {print $1, int($2), int($3)}' | bedtools sort | bedtools window -a [prior peaks from step (1) .bed] -b stdin -u -w 10000 | wc -l
 `. Then, divide by the number of peaks in the prior file to get accuracy percentage. This command takes each of the stripes detected and checks how many of the input known regions are within 10kb (shorter than most genes, but a relatively permissive cutoff) from the stripes.
+
+You can also **score stripes**, though this also requires access to an `.mcool` file. This will assign stripiness values to each stripe and also remove redundant stripes. Run `python3 cli.py score --help` to see a detailed description of inputs and outputs. 
