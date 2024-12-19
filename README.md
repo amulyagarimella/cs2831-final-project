@@ -2,6 +2,10 @@
 
 Detecting genomic stripes using corners.
 
+![comparison](https://github.com/user-attachments/assets/f38beb53-aca3-4149-8691-0986f83e961e)
+
+
+
 ## To run
 Unfortunately, the required `.mcool` genomic files are too large to include one here. However, if you obtain one, here are the steps to running the algorithm:
 1. **Find known stripe regions/priors.** Run `python3 stripe_prior_detection.20241119.py --help` to see a detailed description of inputs and outputs.
