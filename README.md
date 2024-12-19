@@ -23,4 +23,4 @@ tail -n +2 [.../result_unfiltered_removeredundant.tsv] | awk -F'\t' 'BEGIN {OFS=
 You can also **score stripes**, though this also requires access to an `.mcool` file. This will assign stripiness values to each stripe and also remove redundant stripes. Run `python3 cli.py score --help` to see a detailed description of inputs and outputs. 
 
 ## Acknowledgements
-Thank you so much to Sora Yoon. The original code structure and SOTA method is based on [Stripenn]([url](https://github.com/ysora/stripenn)).
+Thank you so much to Sora Yoon. The original code structure and SOTA method is based on [Stripenn](https://github.com/ysora/stripenn).
