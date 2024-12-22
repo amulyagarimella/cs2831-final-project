@@ -22,5 +22,14 @@ tail -n +2 [.../result_unfiltered_removeredundant.tsv] | awk -F'\t' 'BEGIN {OFS=
 
 You can also **score stripes**, though this also requires access to an `.mcool` file. This will assign stripiness values to each stripe and also remove redundant stripes. Run `python3 cli.py score --help` to see a detailed description of inputs and outputs. 
 
+## Visualize results
+Check out `example_results/visualize_stripes.ipynb` for an example visualization of the stripes. This requires the `.mcool` file since we need to show the contact map as a background.
+
+To visualize more stripes yourself:
+1. **Clone repo.**
+2. In the `example_results` folder, open the notebook.
+3. Edit the path in cell 337 of the notebook: `lococo_200 = stripeSet.from_results_folder("50_200bp/2024-12-18_11-41-01_stripesearch_resol_200_chr_19_canny_2.0_minL_5_maxW_8_maxpixel_0.95_numcores_4_pvalue_0.1_slow_True_bfilter_1_seed_123456789_windowSize_100_expansionLength_5_method_lococo_", "lococo_200bp")` to another path in `example_results`
+4. Change cell 347 to visualize different stripes.
+
 ## Acknowledgements
 Thank you so much to Sora Yoon. The original code structure and SOTA method is based on [Stripenn](https://github.com/ysora/stripenn).
